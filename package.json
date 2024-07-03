@@ -1,0 +1,23 @@
+{
+  "name": "conceitos-node",
+  "version": "1.0.0",
+  "description": "esse projeto e um conceito basico de node",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manoel Luiz",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.16.1"
+  }
+}
